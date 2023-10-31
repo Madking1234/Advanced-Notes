@@ -133,3 +133,76 @@
   left: 76%;
   top: 117%;
 }
+.group {
+  display: flex;
+  height: 98px;
+  width: 100%;
+  position: relative;
+}
+.group-icon {
+  width: 68.9px;
+  height: 68.9px;
+  background-color: blue;
+  border-radius: 50%;
+  position: relative;
+}
+.selected-groups {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 57px;
+  margin-left: 40px;
+}
+.group-icon p {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  position: absolute;
+  right: 24%;
+  color: white;
+}
+#group-name {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: black;
+  position: absolute;
+  left: 50px;
+}
+.encryption {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  position: relative;
+  margin: 250px auto;
+}
+.encryption p {
+  line-height: 0px;
+  margin-left: 8px;
+}
+.pocket-notes {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+}
+.main-page {
+  max-width: 700px;
+  height: 500px;
+
+  margin: 100px auto;
+  text-align: center;
+}
+.notes-page {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: aqua;
+}
