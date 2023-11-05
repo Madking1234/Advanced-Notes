@@ -207,7 +207,7 @@ function App() {
                   placeholder="Enter your text here....."
                 ></textarea>
                 <button className="add-notes">
-                  <img id="add-button" src={addtext} />
+                  <img id="add-button" src={addtext} alt="" />
                 </button>
               </form>
             </div>
